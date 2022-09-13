@@ -13,11 +13,9 @@ public class ArrayListDemo {
 		noList.add(30);
 		noList.add(40);
 		noList.add(50);
-		
-		Iterator<Integer> itr = noList.iterator();
 
-		while(itr.hasNext()) {
-			System.out.println(itr.next());
+		for(int n :noList) {
+			System.out.println(n);
 		}
 	}
 
