@@ -12,7 +12,10 @@ public class SetDemo {
 		noSet.add(11);
 		noSet.add(13);
 		
-		System.out.println(noSet);
+		
+		for(int i: noSet) {
+			System.out.println(i);
+		}
 
 	}
 
